@@ -1,6 +1,6 @@
 function ListItem(props) {
     
-    return <li key={props.todo}>{props.todo}</li>
+    return <li>{props.todo}</li>
 }
 
 export default ListItem;
