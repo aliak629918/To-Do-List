@@ -12,6 +12,7 @@ function List(props) {
             todo={todo}
             index={index}
             todos={todos}
+            addCompletedTodos={props.addCompletedTodos}
           />
         );
       })}

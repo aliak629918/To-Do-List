@@ -3,6 +3,14 @@ function ListItem(props) {
   return (
     <li>
       <button
+        className="tick"
+        onClick={() => {
+          props.addCompletedTodos(currentIndex);
+        }}
+      >
+        ✓
+      </button>
+      <button
         onClick={() => {
           props.deleteItem(currentIndex);
         }}

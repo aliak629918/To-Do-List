@@ -54,6 +54,13 @@ li button {
   margin-right: 1rem;
 }
 
+.tick {
+  background-color: rgb(38, 194, 38);
+}
+
+.tick:hover {
+  background-color: rgb(48, 110, 12);
+}
 li button:hover {
   background-color: rgb(126, 17, 17);
   animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
